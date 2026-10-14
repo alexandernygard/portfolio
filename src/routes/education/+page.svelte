@@ -1,32 +1,18 @@
 <script lang="ts">
-  import SchoolList from '$components/schools/SchoolList.svelte';
+  import School from '#lib/components/School.svelte';
+  import { education } from '#lib/data/education.ts';
 </script>
 
-<style>
-  .education-page {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 3rem 1.5rem 5rem;
-  }
+<svelte:head><title>Education, Alex Nygård</title></svelte:head>
 
-  .page-header {
-    margin-bottom: 3.5rem;
-  }
+<h1 class="text-4xl font-normal">Education</h1>
+<p class="mt-4 text-muted-foreground">
+  Schools in Oslo, Karuizawa, Delft, Helsinki and Copenhagen, with an exchange semester in Hong
+  Kong.
+</p>
 
-  .page-header h1 {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    letter-spacing: -0.04em;
-    color: var(--c-text);
-    line-height: 1.05;
-  }
-</style>
-
-<main class="education-page">
-  <header class="page-header animate-fade-up animate-fade-up-1">
-    <p class="section-label" style="margin-bottom: 0.625rem;">Education</p>
-    <h1>Academic<br>background.</h1>
-  </header>
-  <SchoolList />
-</main>
+<ol class="mt-14 space-y-12">
+  {#each education as school (school.degree)}
+    <School {school} />
+  {/each}
+</ol>

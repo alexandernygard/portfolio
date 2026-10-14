@@ -1,9 +1,18 @@
-<script>
-  import Button from '$lib/components/ui/button/button.svelte';
+<script lang="ts">
+  import { page } from '$app/state';
 </script>
 
-<div class="h-[calc(100vh-6rem)] flex flex-col justify-center items-center text-red-600 space-y-5">
-  <h1 class="text-5xl">{'<404>'}</h1>
-  <h1 class="text-7xl">Not Found</h1>
-  <Button href="/" variant="destructive">Go Home</Button>
-</div>
+<svelte:head><title>{page.status}, Alex Nygård</title></svelte:head>
+
+<h1 class="text-4xl font-normal">
+  {page.status === 404 ? 'Page not found' : 'Something went wrong'}
+</h1>
+<p class="mt-6">
+  {#if page.status === 404}
+    There’s nothing at <span class="aside">{page.url.pathname}</span>. The page may have moved, or
+    the link has a typo.
+  {:else}
+    {page.error?.message ?? 'The page failed to load.'}
+  {/if}
+</p>
+<p class="mt-4"><a href="/">Go to the home page</a></p>
