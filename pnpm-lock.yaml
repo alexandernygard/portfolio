@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@alexandernygard/libron':
+        specifier: ^0.31.0
+        version: 0.31.0
       clsx:
         specifier: ^2.1.0
         version: 2.1.1
@@ -65,6 +68,9 @@ importers:
         version: 4.150.0(@cloudflare/workers-types@5.20261014.1)
 
 packages:
+
+  '@alexandernygard/libron@0.31.0':
+    resolution: {integrity: sha512-6SjSvRhCe8jCb/rCAnS4dF1k84jL5hFC17EQ/WtBLHrX7M1zmRmCdrg3Al3wPLKps0ORoK327uSVBCan9FxIVQ==}
 
   '@cloudflare/kv-asset-handler@0.5.0':
     resolution: {integrity: sha512-jxQYkj8dSIzc0cD6cMMNdOc1UVjqSqu8BZdor5s8cGjW2I8BjODt/kWPVdY+u9zj3ms75Q5qaZgnxUad83+eAg==}
@@ -1382,6 +1388,8 @@ packages:
     resolution: {integrity: sha512-B58NGBEoc8Y9MWWCQGl/gq9xBCe4IiKM0a2x7GZdQKOW5Exr8S1W24J6OgM1njK8xCRGvAJIL/MxXHf6SkmQKQ==}
 
 snapshots:
+
+  '@alexandernygard/libron@0.31.0': {}
 
   '@cloudflare/kv-asset-handler@0.5.0': {}
 
