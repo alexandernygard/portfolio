@@ -7,7 +7,8 @@
 
 <h1 class="text-4xl font-normal">Projects</h1>
 <p class="mt-4 text-muted-foreground">
-  Things I built at school and in my spare time. Each title links to the source code.
+  Things I built at school and in my spare time. Titles link to the source code or the live app
+  where it's public.
 </p>
 
 <ul class="mt-14 space-y-12">
@@ -21,7 +22,11 @@
       />
       <div>
         <h2 class="text-xl">
-          <a href={project.link}>{project.name}</a>
+          {#if project.link}
+            <a href={project.link}>{project.name}</a>
+          {:else}
+            {project.name}
+          {/if}
         </h2>
         <p class="aside figures mt-0.5 text-base">{project.time}</p>
         <p class="mt-2">{project.description}</p>
