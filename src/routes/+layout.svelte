@@ -46,7 +46,7 @@
   />
 </svelte:head>
 
-<ModeWatcher themeColors={{ light: '#fbfbfa', dark: '#1c1d1f' }} disableTransitions />
+<ModeWatcher themeColors={{ light: '#f5f7f8', dark: '#1c1d1f' }} disableTransitions />
 
 <a
   href="#main"

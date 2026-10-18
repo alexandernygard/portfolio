@@ -29,11 +29,9 @@
   },
   "type": "module",
   "dependencies": {
+    "@alexandernygard/components-svelte": "^0.1.0",
     "@alexandernygard/libron": "^0.31.0",
-    "clsx": "^2.1.0",
-    "mode-watcher": "^1.1.0",
-    "tailwind-merge": "^3.0.1",
-    "tailwind-variants": "^3.3.1"
+    "mode-watcher": "^1.1.0"
   },
   "packageManager": "pnpm@10.5.2",
   "pnpm": {
