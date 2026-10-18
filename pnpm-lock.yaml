@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@alexandernygard/components-svelte':
-        specifier: ^0.1.0
-        version: 0.1.0(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.57.2)(tailwindcss@4.3.3)
+        specifier: ^0.1.2
+        version: 0.1.2(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.57.2)(tailwindcss@4.3.3)
       '@alexandernygard/libron':
         specifier: ^0.31.0
         version: 0.31.0
@@ -63,16 +63,16 @@ importers:
 
 packages:
 
-  '@alexandernygard/components-svelte@0.1.0':
-    resolution: {integrity: sha512-6GaZZwq/n8/ezUBL98WnpNVtgpccQNLWTBU6hRgIHPOLCxMrntkPj/61j0wzB0Mco6/93ktc2Ym3mA6qnn6Gxw==}
+  '@alexandernygard/components-svelte@0.1.2':
+    resolution: {integrity: sha512-y3je/rVWC8YIuYFg4H3crfSPFnV+aQiuY9tcWAz85DbJZeYwR31oxf1IONnx2X1bZQZrJ120BhvnmITsORJatw==}
     peerDependencies:
       svelte: ^5.0.0
 
   '@alexandernygard/libron@0.31.0':
     resolution: {integrity: sha512-6SjSvRhCe8jCb/rCAnS4dF1k84jL5hFC17EQ/WtBLHrX7M1zmRmCdrg3Al3wPLKps0ORoK327uSVBCan9FxIVQ==}
 
-  '@alexandernygard/tokens@0.1.1':
-    resolution: {integrity: sha512-DB1ktxl6CaoBMNdvH6cZqFPqauOvSb+rrzSeLR0Cyx4srFuwnSPS3nkg+9/3veM6vRO3h9/GkyaebfSE2xmyzw==}
+  '@alexandernygard/tokens@0.1.2':
+    resolution: {integrity: sha512-Iv0aRuN2yXGz1ILpjGooB4iuy5uZFA9d8xZhyGCGGI9YWDp2002K/BNEbZlFIvIq9HjxsJCzxNNhwvOk+tymzA==}
 
   '@cloudflare/kv-asset-handler@0.5.0':
     resolution: {integrity: sha512-jxQYkj8dSIzc0cD6cMMNdOc1UVjqSqu8BZdor5s8cGjW2I8BjODt/kWPVdY+u9zj3ms75Q5qaZgnxUad83+eAg==}
@@ -1653,9 +1653,6 @@ packages:
   tabbable@6.5.0:
     resolution: {integrity: sha512-wieBHXygIm7OyQOu5hQlkk62/WyCFYGlWg7L6/ZCUZwx0o398Zkn4pVmMyfYhfMG8kGrj/Krt8eIk6UKC6VzwA==}
 
-  tailwind-merge@3.4.1:
-    resolution: {integrity: sha512-2OA0rFqWOkITEAOFWSBSApYkDeH9t2B3XSJuI4YztKBzK3mX0737A2qtxDZ7xkw9Zfh0bWl+r34sF3HXV+Ig7Q==}
-
   tailwind-merge@3.7.0:
     resolution: {integrity: sha512-XPPUyAc+cvspz3lHTcR/QgPfW2A0lv/xQNIjX3HGhLR+Nq2lHaLq5MtTesHn8GUr3W3DguT2KT5x3NVgRtYwmA==}
 
@@ -1826,9 +1823,9 @@ packages:
 
 snapshots:
 
-  '@alexandernygard/components-svelte@0.1.0(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.57.2)(tailwindcss@4.3.3)':
+  '@alexandernygard/components-svelte@0.1.2(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.57.2)(tailwindcss@4.3.3)':
     dependencies:
-      '@alexandernygard/tokens': 0.1.1
+      '@alexandernygard/tokens': 0.1.2
       '@internationalized/date': 3.12.4
       '@lucide/svelte': 1.59.0(svelte@5.57.2)
       '@shadcn-svelte/primitives': 0.0.1(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.57.2)
@@ -1851,7 +1848,7 @@ snapshots:
 
   '@alexandernygard/libron@0.31.0': {}
 
-  '@alexandernygard/tokens@0.1.1':
+  '@alexandernygard/tokens@0.1.2':
     dependencies:
       '@alexandernygard/libron': 0.31.0
 
@@ -2135,7 +2132,7 @@ snapshots:
       '@layerstack/utils': 2.0.0-next.19
       clsx: 2.1.1
       d3-array: 3.2.4
-      tailwind-merge: 3.4.1
+      tailwind-merge: 3.7.0
 
   '@layerstack/utils@2.0.0-next.19':
     dependencies:
@@ -3205,8 +3202,6 @@ snapshots:
       - '@typescript-eslint/types'
 
   tabbable@6.5.0: {}
-
-  tailwind-merge@3.4.1: {}
 
   tailwind-merge@3.7.0: {}
 

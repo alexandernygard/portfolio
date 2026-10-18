@@ -7,25 +7,7 @@
   --link: #2a5aa8;
 }
 
-/* Dark mode keeps the site's warm charcoal instead of the theme's blue-black. */
 .dark {
-  --background: #1c1d1f;
-  --foreground: #e7e4de;
-  --card: #1c1d1f;
-  --card-foreground: #e7e4de;
-  --popover: #1c1d1f;
-  --popover-foreground: #e7e4de;
-  --primary: #e7e4de;
-  --primary-foreground: #1c1d1f;
-  --secondary: #26282b;
-  --secondary-foreground: #e7e4de;
-  --muted: #26282b;
-  --muted-foreground: #a3a39f;
-  --accent: #26282b;
-  --accent-foreground: #e7e4de;
-  --border: #36383c;
-  --input: #36383c;
-
   --link: #a4bde9;
 }
 

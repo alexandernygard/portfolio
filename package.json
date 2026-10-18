@@ -29,7 +29,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@alexandernygard/components-svelte": "^0.1.0",
+    "@alexandernygard/components-svelte": "^0.1.2",
     "@alexandernygard/libron": "^0.31.0",
     "mode-watcher": "^1.1.0"
   },
