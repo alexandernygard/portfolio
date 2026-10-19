@@ -1,4 +1,5 @@
 import marketplaceImage from '#lib/images/projects/marketplace.png';
+import arrowsmithImage from '#lib/images/projects/arrowsmith.png';
 import bachelorThesisImage from '#lib/images/projects/bachelor-thesis.png';
 import bookInventoryImage from '#lib/images/projects/book-inventory.png';
 import componentsImage from '#lib/images/projects/components.png';
@@ -6,6 +7,7 @@ import dashboardsImage from '#lib/images/projects/dashboards.png';
 import eeImage from '#lib/images/projects/ee.png';
 import floorplateImage from '#lib/images/projects/floorplate.png';
 import ghWatcherImage from '#lib/images/projects/gh-watcher.jpg';
+import glimpseImage from '#lib/images/projects/glimpse.png';
 import iconMotionTableImage from '#lib/images/projects/icon-motion-table.png';
 import lommebokImage from '#lib/images/projects/lommebok.png';
 import martianImage from '#lib/images/projects/martian.jpg';
@@ -19,6 +21,7 @@ import scalableWebAppsImage from '#lib/images/projects/scalable-web-apps.png';
 import tallyImage from '#lib/images/projects/tally.png';
 import thesisResearcherImage from '#lib/images/projects/thesis-researcher.png';
 import urImage from '#lib/images/projects/ur.jpg';
+import wikiweaveImage from '#lib/images/projects/wikiweave.png';
 import type { TechKey } from './tech.ts';
 
 export type Project = {
@@ -100,6 +103,30 @@ export const projects: Project[] = [
     tech: ['sveltekit', 'typescript', 'cloudflare'],
     link: 'https://nyggis.com',
     time: 'Oct 2026',
+  },
+  {
+    name: 'WikiWeave',
+    description:
+      'Point it at a website and a topic, and Claude agents turn the site into a Markdown wiki. A lead agent scouts the pages and plans the folder tree, then hands sections to parallel workers that scrape and write each article, and reviews the result. A single-file dashboard shows the wiki growing live.',
+    image: wikiweaveImage,
+    tech: ['typescript', 'nodejs', 'claude'],
+    time: 'Sep 2026',
+  },
+  {
+    name: 'arrowsmith',
+    description:
+      'A small flowchart language that people and LLMs can both write, and a CLI that lays it out with dagre and renders SVG or PNG. Errors come back with line numbers so a model can fix its own output, and a browser demo has Claude write the diagram from a plain description.',
+    image: arrowsmithImage,
+    tech: ['javascript', 'nodejs', 'claude'],
+    time: 'Sep 2026',
+  },
+  {
+    name: 'Glimpse',
+    description:
+      'A macOS menu bar app for catching things during the day: a global hotkey takes a screenshot or opens a note, and Claude gives each capture a title, summary, category, tags and the text in the screenshot. Everything is searchable in a timeline grouped by day.',
+    image: glimpseImage,
+    tech: ['swift', 'swiftui', 'claude'],
+    time: 'Sep 2026',
   },
   {
     name: 'Dashboards',
