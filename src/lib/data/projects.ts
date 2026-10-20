@@ -16,9 +16,12 @@ import nyggisImage from '#lib/images/projects/nyggis.png';
 import portfolioImage from '#lib/images/projects/portfolio.png';
 import quizzzImage from '#lib/images/projects/quizzz.png';
 import scalableWebAppsImage from '#lib/images/projects/scalable-web-apps.png';
+import ppt2Image from '#lib/images/projects/ppt2.png';
 import tallyImage from '#lib/images/projects/tally.png';
 import thesisResearcherImage from '#lib/images/projects/thesis-researcher.png';
 import urImage from '#lib/images/projects/ur.jpg';
+import word2Image from '#lib/images/projects/word2.png';
+import xl2Image from '#lib/images/projects/xl2.png';
 import type { TechKey } from './tech.ts';
 
 export type Project = {
@@ -39,6 +42,33 @@ export const projects: Project[] = [
     tech: ['svelte', 'typescript', 'tailwind'],
     link: 'https://github.com/alexandernygard/portfolio',
     time: 'Dec 2022 – Present',
+  },
+  {
+    name: 'ppt2',
+    description:
+      'PowerPoint rebuilt around code. Decks are TSX modules you edit visually, in code or by asking Claude, and all three change the same source. A static in-browser app where you bring your own Anthropic API key.',
+    image: ppt2Image,
+    tech: ['react', 'typescript', 'tailwind', 'claude'],
+    link: 'https://ppt2.nyggis.com',
+    time: 'Oct 2026',
+  },
+  {
+    name: 'word2',
+    description:
+      'A word processor where the document is code, written in extended markdown. Claude edits it as tracked suggestions you accept or reject one by one. A static in-browser app where you bring your own Anthropic API key.',
+    image: word2Image,
+    tech: ['react', 'typescript', 'tailwind', 'claude'],
+    link: 'https://word2.nyggis.com',
+    time: 'Oct 2026',
+  },
+  {
+    name: 'xl2',
+    description:
+      'An AI-first spreadsheet where the workbook is one TypeScript module plus CSV files, and every edit in the grid rewrites that source. A static in-browser app where you bring your own Anthropic API key.',
+    image: xl2Image,
+    tech: ['react', 'typescript', 'tailwind', 'claude'],
+    link: 'https://xl2.nyggis.com',
+    time: 'Oct 2026',
   },
   {
     name: 'Ur',
